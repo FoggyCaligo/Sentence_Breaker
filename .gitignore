@@ -3,6 +3,5 @@ __pycache__/
 *.egg-info/
 .pytest_cache/
 .venv/
-.sentence_breaker/
 dist/
 build/
