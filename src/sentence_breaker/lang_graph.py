@@ -232,11 +232,3 @@ def segment_text(text: str, db_path: str | Path | None = None) -> list[str]:
         return graph.segment_text(text)
     finally:
         graph.close()
-
-
-
-text = ""
-while(text != "exit"):
- text = input()
- segments = segment_text(text)
- print(segments)
