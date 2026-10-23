@@ -46,7 +46,7 @@ PathState = tuple[str, int]
 
 def get_default_db_path() -> Path:
     package_file = Path(__file__).resolve()
-    return package_file.parent / "lang_graph.db"
+    return package_file.parent / "sentence_breaker.sqlite3"
 
 
 @dataclass(slots=True)
