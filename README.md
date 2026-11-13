@@ -2,6 +2,8 @@
 
 입력된 문자의 연속 경로를 SQLite에 누적하고, 과거 문장 경로와 일치하는 구간을 이용해 텍스트를 분할하는 Python 패키지임. 공백과 문장부호도 문자 경로에 포함됨.
 
+설계·동적 계획법·누적 DB 재현 조건은 [알고리즘 문서](docs/algorithm.md)에서 관리한다. Sentence_Breaker의 문자 경로 분해 알고리즘은 이 저장소의 독립 구현이며, [MCP_memorizer](https://github.com/FoggyCaligo/MCP_memorizer/blob/dev/docs/sentence-breaker.md)는 이를 의존성으로 연결하는 메모리 엔진이다.
+
 ## 설치
 
 ```bash
