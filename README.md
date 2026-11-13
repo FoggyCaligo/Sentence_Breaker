@@ -4,6 +4,10 @@
 
 설계·동적 계획법·누적 DB 재현 조건은 [알고리즘 문서](docs/algorithm.md)에서 관리한다. Sentence_Breaker의 문자 경로 분해 알고리즘은 이 저장소의 독립 구현이며, [MCP_memorizer](https://github.com/FoggyCaligo/MCP_memorizer/blob/dev/docs/sentence-breaker.md)는 이를 의존성으로 연결하는 메모리 엔진이다.
 
+## 라이선스
+
+본 저장소의 저작권자가 라이선스할 권한을 가진 원본 소스는 **GNU Affero General Public License v3.0-only (`AGPL-3.0-only`)** 조건으로 배포한다. 전체 약관은 [LICENSE](LICENSE)에 있으며, 기존 Apache-2.0 표기는 현재 배포 라이선스가 아니다. 이전 버전의 이미 부여된 라이선스 권한을 소급해 소멸시킨다는 뜻은 아니다.
+
 ## 설치
 
 ```bash
